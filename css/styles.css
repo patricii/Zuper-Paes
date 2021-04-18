@@ -199,7 +199,7 @@ section .card-wrapper {
 }
 
 section .card-item {
-  height: 550px;
+  height: 570px;
   background: var(--gray);
   border-radius: 8px;
   display: flex;
@@ -217,7 +217,9 @@ section .card-item {
 }
 
 .card-item img {
-  width: 80%;
+  height: 60%;
+  width: 90%;
+ 
 }
 
 .card-item h4 {

@@ -23,7 +23,6 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-
 header {
   width: 100%;
   height: 500px;
@@ -297,7 +296,7 @@ section .card-item {
   padding-top: 10%;
 }
 
-.right h3 {
+.right h2 {
   text-align: right;
   width: 90%;
   margin-bottom: 20px;
@@ -392,7 +391,7 @@ footer .main {
   min-height: 100px;
 }
 
-.footer-links h4 {
+.footer-links h3 {
   margin-bottom: 10px;
 }
 
@@ -413,6 +412,9 @@ footer .last {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.last p{
+font-size: 10px;
 }
 
 /* Responsive adjustments */

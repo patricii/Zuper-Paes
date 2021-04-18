@@ -14,9 +14,8 @@
   --orange: #f78b00;
   --blue: #00285f;
   --gray: #ededed;
-  --red: #db0d0d;
   --black: #000000;
-  --brown: #883905;
+  --red: #e21111;
 }
 
 html,
@@ -28,7 +27,7 @@ body {
 header {
   width: 100%;
   height: 500px;
-  background: var(--brown);
+  background: var(--red);
 }
 
 .content {
@@ -50,11 +49,16 @@ nav {
 }
 
 .brand {
-  font-size: 38px;
   color: var(--gray);
   cursor: pointer;
-}
 
+}
+.brand img{
+
+  width: 250px;
+  height: 140px;
+
+}
 nav ul {
   display: flex;
   flex-direction: row;
@@ -67,7 +71,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--gray);
+  font-size: 25px;
+  color: var(--black);
   text-decoration: none;
 }
 
@@ -94,7 +99,7 @@ nav ul button:hover {
 
 .content .header-block {
   min-width: 300px;
-  height: 450px;
+  height: 410px;
   background: var(--black);
   border-radius: 8px;
   box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -106,7 +111,7 @@ nav ul button:hover {
 }
 
 .header-block img {
-  width: 58%;
+  width: 60%;
   position: absolute;
   right: 2%;
   bottom: 2%;
@@ -115,24 +120,25 @@ nav ul button:hover {
 .header-block .text {
   position: absolute;
   bottom: 30%;
-  left: 15%;
+  left: 5%;
 }
 
 .header-block .text h2 {
   color: white;
   margin-bottom: 20px;
   text-align: right;
-  transform: translateX(-20px);
-  transition: transform 0.5s;
+  transform: translateX(-30px);
+  transition: transform 0.2s;
+}
+.header-block .text h1 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: right;
+  transform: translateX(-30px);
+  transition: transform 0.2s;
 }
 
-.header-block .text p {
-  max-width: 280px;
-  color: white;
-  text-align: right;
-  transform: translateX(-20px);
-  transition: transform 0.4s;
-}
+
 
 /* Product Catalog */
 
@@ -144,7 +150,7 @@ section .catalogo {
 section .filter-card {
   width: 980px;
   height: 150px;
-  background: var(--gray);
+  background: var(--red);
   border-radius: 8px;
   margin: 0 auto;
   display: flex;
@@ -193,7 +199,7 @@ section .card-wrapper {
 }
 
 section .card-item {
-  height: 400px;
+  height: 550px;
   background: var(--gray);
   border-radius: 8px;
   display: flex;
@@ -211,11 +217,11 @@ section .card-item {
 }
 
 .card-item img {
-  width: 85%;
+  width: 80%;
 }
 
 .card-item h4 {
-  width: 90%;
+  width: 80%;
 }
 
 .card-item p {
@@ -275,6 +281,10 @@ section .card-item {
   height: 100%;
   background: #000000a1;
   border-radius: 8px;
+}
+.left img{
+  width: 100%;
+  height: 100%;
 }
 
 .right {
@@ -360,7 +370,7 @@ footer {
 footer .main {
   width: 100%;
   height: 200px;
-  background: var(--brown);
+  background: var(--red);
   padding: 20px 10px;
 }
 
@@ -391,8 +401,8 @@ footer .main {
 }
 
 .main .footer-social img {
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
 }
 
 footer .last {

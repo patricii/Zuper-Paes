@@ -444,9 +444,9 @@ font-size: 10px;
 
   .header-block img {
     width: 70%;
-    height: 70%;
+    height: 50%;
     position: absolute;
-    right: 14%;
+    right: 10%;
     bottom:25%;
   }
 

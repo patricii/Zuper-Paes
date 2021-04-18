@@ -444,10 +444,10 @@ font-size: 10px;
   }
 
   .header-block img {
-    width: 70%;
+    width: 50%;
     position: absolute;
     right: 16%;
-    top: 20%;
+    top: 5%;
   }
 
   .header-block .text {

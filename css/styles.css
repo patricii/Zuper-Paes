@@ -115,6 +115,7 @@ nav ul button:hover {
 }
 
 .header-block img {
+  height: 390px;
   width: 60%;
   position: absolute;
   right: 2%;

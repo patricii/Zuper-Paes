@@ -443,10 +443,11 @@ font-size: 10px;
   }
 
   .header-block img {
-    width: 60%;
+    width: 70%;
+    height: 70;
     position: absolute;
     right: 16%;
-    top: 25%;
+    bottom:25%;
   }
 
   .header-block .text {

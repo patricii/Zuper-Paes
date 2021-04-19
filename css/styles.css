@@ -338,7 +338,7 @@ section .card-item {
 .feature-card-block {
   max-width: 1000px;
   min-width: 300px;
-  height: 1300px;
+  height: 1800px;
   background: white;
   margin: 0 auto;
   border-radius: 8px;
@@ -351,8 +351,8 @@ section .card-item {
 
 .feature-card-item {
   max-width: 420px;
-  height: 150px;
-  display: flex;
+  height: 240px;
+  display:flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -364,11 +364,13 @@ section .card-item {
 }
 
 .feature-text-content {
-  max-width: 60%;
+  max-width: 35%;
   margin: 5px;
 }
 .feature-text-content li {
+
   list-style:circle;
+
 }
 .feature-text-content li a{
   text-decoration: none;

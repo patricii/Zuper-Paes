@@ -28,7 +28,6 @@ header {
   height: 500px;
   background: var(--red);
 }
-
 .content {
   max-width: 1000px;
   min-width: 300px;
@@ -42,6 +41,7 @@ header {
   width: 100%;
   height: 80%;
   border-radius: 6px;
+
 }
 nav {
   width: 100%;
@@ -62,6 +62,7 @@ nav {
   width: 250px;
   height: 140px;
 
+
 }
 nav ul {
   display: flex;
@@ -72,12 +73,45 @@ nav ul li {
   list-style: none;
   padding: 10px;
   cursor: pointer;
-}
+  animation: slide_top 0.9s linear forwards;
 
+}
+@keyframes slide_top
+{
+  0%
+  {
+
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+}
+@keyframes slide_right
+{
+  0%
+  {
+  transform: translateX(100px);
+  opacity: 0;
+  }
+
+  
+}
+@keyframes slide_left
+{
+  0%
+  {
+  transform: translateY(100px);
+  opacity: 0;
+  }
+
+  
+}
 nav ul li a {
   font-size: 25px;
   color: var(--black);
   text-decoration: none;
+  animation-delay: calc(0.2s * var(--i));
+
 }
 
 nav ul li a:hover {
@@ -118,9 +152,10 @@ nav ul button:hover {
   width: 60%;
   height: 390px;
   position: absolute;
-  right: 2%;
+  right: 0.4%;
   bottom: 2.8%;
   border-radius: 10px;
+  animation: slide_right 0.9s linear forwards;
 }
 
 .header-block .text {
@@ -132,16 +167,14 @@ nav ul button:hover {
 .header-block .text h2 {
   color: white;
   margin-bottom: 20px;
-  text-align: right;
-  transform: translateX(-30px);
-  transition: transform 0.2s;
+  text-align: left;
+  animation: slide_left 0.8s linear forwards;
 }
 .header-block .text h1 {
   color: white;
   margin-bottom: 20px;
-  text-align: right;
-  transform: translateX(-30px);
-  transition: transform 0.2s;
+  text-align: left;
+  animation: slide_left 0.9s linear forwards;
 }
 
 

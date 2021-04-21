@@ -168,7 +168,7 @@ nav ul button:hover {
   color: white;
   margin-bottom: 20px;
   text-align: left;
-  animation: slide_left 0.8s linear forwards;
+  animation: slide_left 0.9s linear forwards;
 }
 .header-block .text h1 {
   color: white;

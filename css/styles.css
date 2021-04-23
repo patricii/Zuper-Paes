@@ -262,7 +262,11 @@ section .card-item {
   height: 60%;
   width: 85%;
   border-radius: 4px;
- 
+}
+.card-item img:hover {
+  height: 80%;
+  width: 105%;
+  border-radius: 6px;
 }
 
 .card-item h4 {

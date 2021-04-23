@@ -100,7 +100,7 @@ nav ul li {
 {
   0%
   {
-  transform: translateY(100px);
+  transform: translateX(-100px);
   opacity: 0;
   }
 
@@ -168,7 +168,7 @@ nav ul button:hover {
   color: white;
   margin-bottom: 20px;
   text-align: left;
-  animation: slide_left 0.9s linear forwards;
+  animation: slide_top 0.9s linear forwards;
 }
 .header-block .text h1 {
   color: white;

@@ -1,6 +1,9 @@
 /* font importing */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bevan:wght@400;700&display=swap");
+
+
 /* reseting css rules */
 * {
   margin: 0px;
@@ -81,7 +84,7 @@ nav ul li {
   0%
   {
 
-    transform: translateY(100px);
+    transform: translateY(-100px);
     opacity: 0;
   }
 
@@ -110,7 +113,6 @@ nav ul li a {
   font-size: 25px;
   color: var(--black);
   text-decoration: none;
-  animation-delay: calc(0.2s * var(--i));
 
 }
 
@@ -171,6 +173,8 @@ nav ul button:hover {
   animation: slide_top 0.9s linear forwards;
 }
 .header-block .text h1 {
+  font-family: "Bevan";
+  font-size: 3.5vw;
   color: white;
   margin-bottom: 20px;
   text-align: left;

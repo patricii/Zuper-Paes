@@ -553,6 +553,8 @@ font-size: 10px;
   .feature-card-item img {
       width: 70%;
       height: 70%;
+      display: flex;
+      flex-direction: column;
   }
 
   footer {

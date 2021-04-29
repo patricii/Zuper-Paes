@@ -550,6 +550,12 @@ font-size: 10px;
     text-align: left;
   }
 
+  .right h3 {
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+  }
+
   .features {
     height: 100%;
   }

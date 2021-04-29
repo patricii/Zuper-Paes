@@ -352,6 +352,15 @@ section .card-item {
   width: 90%;
   margin-bottom: 20px;
 }
+.right h3 {
+  text-align: right;
+  margin-left: 100px;
+  width: 90%;
+}
+.right a{
+  text-decoration: none;
+  color: var(--red);
+}
 
 .right p {
   max-width: 90%;

@@ -241,7 +241,7 @@ section .card-wrapper {
 }
 
 section .card-item {
-  height: 570px;
+  height: 690px;
   background: var(--gray);
   border-radius: 8px;
   display: flex;
@@ -259,13 +259,13 @@ section .card-item {
 }
 
 .card-item img {
-  height: 60%;
-  width: 85%;
+  height: 70%;
+  width: 95%;
   border-radius: 4px;
 }
 .card-item img:hover {
-  height: 70%;
-  width: 95%;
+  height: 80%;
+  width: 115%;
   border-radius: 6px;
 }
 
